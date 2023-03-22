@@ -75,7 +75,7 @@ h1{
     color: black;
     
 }
-/* REsponsive */
+/* Responsive */
 @media (max-width: 480px) {
     .todo-list {
         width: 100%;
