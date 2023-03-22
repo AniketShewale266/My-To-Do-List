@@ -19,13 +19,15 @@ h1{
     /* border: 2px solid white; */
     /* height: 50vh; */
     /* width: 50%; */
+    width: 100%;
     margin: 30px 0px;
     justify-content: center;
     align-items: center;
     flex-direction: column;
 }
 .todo-list{
-    width: 450px;
+    width: 30%;
+    /* border: 1px solid red; */
     /* display: flex;
     align-items: center;
     justify-content: center; */
@@ -34,11 +36,17 @@ h1{
     border-radius: 5px;
 }
 .list-head input{
-    width: 75%;
+    width: 75vw;
     padding: 10px 10px;
     color: black;
     font-size: 16px;
 
+}
+.list-head{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 1rem;
 }
 .list-head #add_btn{
     color: black;
@@ -67,27 +75,9 @@ h1{
     color: black;
     
 }
-/*
-.tasks{
-    display: flex;
-    width: 100%;
-    border:2px solid white; 
-     margin-top: 20px;
-}
-.items{
-    margin-top: 20px;
-    padding: 10px;
-    display: flex;
-    justify-content: space-between;
-    border:2px solid white;
-    box-shadow: 0 0px 5px rgb(224, 224, 238);
-}
-.items p{
-    font-size: 16px;
-}
-.items #delete{
-    font-size: 20px;
-    cursor: pointer;
-}
-
-*/
+/* REsponsive */
+@media (max-width: 480px) {
+    .todo-list {
+        width: 100%;
+    }
+  }
